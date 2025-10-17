@@ -7,6 +7,7 @@ This project is a functional implementation of the popular 2048 Game, developed 
 🚀 Features
 
 => Interactive 4x4 grid with dynamic tile movements
+
 => Keyboard and button controls (Up, Down, Left, Right)
 => Automatic new tile generation (2 or 4) after each valid move
 => Score tracking based on merged tiles
