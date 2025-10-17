@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🧩 2048 Game – React Implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯 Objective
 
-## Available Scripts
+This project is a functional implementation of the popular 2048 Game, developed as part of a Full Stack Software Developer assignment. The goal of the game is to combine tiles with the same number to reach 2048 while maintaining dynamic gameplay and smooth UI updates.
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+=> Interactive 4x4 grid with dynamic tile movements
+=> Keyboard and button controls (Up, Down, Left, Right)
+=> Automatic new tile generation (2 or 4) after each valid move
+=> Score tracking based on merged tiles
+=> Game-over detection (when no valid moves left)
+=> Restart button to start a new game anytime
+=> Built with a responsive and modern UI using Tailwind CSS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚙️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend: React.js
+Styling: Tailwind CSS
+Language: JavaScript (ES6+)
 
-### `npm test`
+🧠 Game Rules
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+=> Use arrow keys or on-screen controls to slide tiles.
+=> When two tiles with the same number collide, they merge into one tile with their sum value.
+=> After every move, a new tile (2 or 4) appears in a random empty spot.
+=> The game ends when:
+    => You reach 2048, or
+    => No more moves are possible.
 
-### `npm run build`
+🏗️ Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1️⃣ Clone the repository: 
+=> https://github.com/sudarsan29/2048-Game
+=> cd 2048-game
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2️⃣ Install dependencies
+=> npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3️⃣ Start the development server
+=> npm start
 
-### `npm run eject`
+🧩 Functional Programming Principles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+=> Pure functions are used to handle grid updates and merging logic.
+=> State management with React Hooks ensures the UI re-renders efficiently after each move.
+=> The logic for tile movements and merges is modular and reusable for scalability.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Live Demo (Vercel Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The 2048 Game is live and deployed on Vercel for easy access and testing.
+👉 Play it here: https://2048-game-nine-murex.vercel.app/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👨‍💻 Developer
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sudarsan Malyavantam
+=> GitHub: https://github.com/sudarsan29/2048-Game
+=> LinkedIn: https://www.linkedin.com/in/sudharshan-malyavantam/
